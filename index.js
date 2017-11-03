@@ -17,13 +17,13 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(n) {
   var array = []
-  if (n < 15) {
+  if (n > 15) {
+    array.push("I love the Beatles!")
+  } else {
     do {
       array.push("I love the Beatles!")
       n--
-    } while (n + 2 > 0)
-  } else {
-    array.push("I love the Beatles!")
+    } while (n > -1)
   }
   return array
 }
